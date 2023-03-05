@@ -1,1 +1,45 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="current">
+    <h1> 현재 시간</h1>
+    <h1 id="clock">00:00:00</h1>
+</div>
+<div class="login">
+    <form class="hidden" id="login-form">
+        <input required maxlength="15" type="text" placeholder="What is your name"?" />
+        <input type="submit" value="Log in"/>
+    </form>
+    <h1 class="hidden"id="greeting"></h1>
+
+    <a href="https://timecker.com" target="_blank">Go to courses</a>
+    <form id="todo-form">
+        <input type="text" placeholder="Wirte a To Do and Press Enter" required/>
+    </form>
+</div>
+<div class="todos">
+    <h2>My Todo List</h2>
+    <ul id="todo-list"></ul>
+</div>
+<div id ="quote">
+    <span></span>
+    <span></br>by</br></span>
+    <span></span>
+</div>
+<script src="js/greeting.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/quotes.js"></script>
+<script src="js/background.js"></script>
+<script src="js/todo.js"></script>
+<script src="js/weather.js"></script>
+
+</body>
+</html>
